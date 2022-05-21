@@ -7,13 +7,17 @@
 2. Install Java8 on Linux machine
 
 <sub> sudo apt-get -y install openjdk-8-jdk openjdk-8-jre </sub>
+
 <sub> java -version </sub>
 
 3. Set JAVA_HOME variables
 
 <sub> cat >> /etc/environment <<EOL </sub>
+
 <sub> JAVA_HOME=/usr/lib/jvm/java-8-openjdk-amd64 </sub>
+
 <sub> JRE_HOME=/usr/lib/jvm/java-8-openjdk-amd64/jre </sub>
+
 <sub> EOL </sub>
 
 4. First, add the repository key to the system
